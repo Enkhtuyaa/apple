@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Main-title {
+  width: 100vw;
+  height: 44px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+#logo {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+#title {
+  display: flex;
+  gap: 24px;
+}
+.header-text {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+#item {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#subtitle-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: #1d1d1f;
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#background1 {
+  width: 100vw;
+  height: 692px;
+  background-image: url(/picture/Background\ \(1\).png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+.heading-text {
+  font-weight: 600;
+  font-size: 52px;
+  color: #f5f5f7;
+  display: flex;
+  gap: 16px;
+}
+.sub-heading-text {
+  font-weight: 400;
+  font-size: 24px;
+  color: #f5f5f7;
+}
+.learn-more {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  gap: 16px;
+  padding-top: 20px;
+  padding-left: 99px;
+  padding-right: 99px;
+}
+#learn-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+}
+.buybutton {
+  width: 68px;
+  height: 44px;
+  border: 2px solid #2997ff;
+  border-radius: 50px;
+}
+#buy-text {
+  font-weight: 400;
+  font-size: 16px;
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#background2 {
+  width: 100vw;
+  height: 692px;
+  background-image: url(/picture/Background\ \(2\).png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+.learn-more-1 {
+  width: 123px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#learn-text-1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.buybutton-1 {
+  width: 68px;
+  height: 44px;
+  border: 2px solid #ffffff;
+  border-radius: 50px;
+}
+#buy-text-1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#background3 {
+  width: 100vw;
+  height: 692px;
+  background-image: url(/picture/Figure\ \(5\).png);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Back3 {
+    padding-top: 446px;
+    padding-bottom: 82px;
+    display: flex;
+  
+    flex-direction: column;
+    align-items: center;
+}
+#heading-text {
+  color: #000000;
+}
+#sub-heading-text { 
+  color: #000000;
+}
+#shop {
+  width: 114px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 50px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.gitf{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    display: flex;
+  gap: 16px;
+}
+#shopbuttons{
+    padding-top: 16px;
+    padding-left: 145.5px;
+    padding-right: 145.5px;
+}
+
+#big{
+    width: 100vw;
+    height: 1764px;
+}
+.BG {
+    display: grid;
+    grid-template-columns: 50% 2fr ;
+    gap: 10px;
+    background-repeat: no-repeat;
+}
+    
+#background4{
+    height: 580px;
+    background-image: url(/picture/5-1.png);
+    background-size: cover;
+}
+#background5{
+    background-image:url(/picture/Figure.png);
+    background-size: cover;
+}
+#background6{
+  height: 580px;
+  background-image:url(/picture/watch.png);
+  background-size: cover;
+}
+#background7{
+  height: 580px;
+  background-image: url(/picture/Figure\ \(2\).png);
+  background-size: cover;
+}
+#background8{
+  height: 580px;
+  background-image: url(/picture/Figure\ \(3\).png);
+  background-size: cover;
+}
+#background9{
+  height: 580px;
+  background-image: url(/picture/Figure\ \(7\).png);
+ background-size:cover;}
+ 
+ .back-text{
+  font-weight: 400;
+  font-size: 18px;
+  color: #1D1D1F;
+  padding-top: 9px;
+  padding-bottom: 20px;
+ }
+ .back-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 58px;
+ }
+ .big-text{
+  font-weight: 600;
+  font-size: 36px;
+  color: #F5F5F7;
+ }
+ #text-2{
+  color: #F5F5F7;
+ }
+.back-2{ 
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 401px;
+}
+#icon{
+  display: flex;
+  gap: 10px;
+}
+#back2 {display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+}
+.watch{
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  padding-top: 58px;
+
+}
+#series{
+  font-weight: 700;
+  font-size: 15px;
+  color: #000000;
+  display: flex;
+  justify-content: center;
+}
+.Thinstant{
+  font-weight: 400;
+  font-size: 18px;
+display: flex;
+gap: 16px;
+justify-content: center;
+}
+.Buy{
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  padding-top: 16px;
+}
+.LM {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxer{
+  width: 68px;
+  height: 44px;
+  border: 2px solid #2997FF;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ml{
+  color: #FFFFFF;
+}
+#boox {
+color: #2997FF;
+}
+#MacBook{ display: flex; 
+  gap:2px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+  padding-bottom: 411px;
+  padding-left: 286px;
+  padding-right: 286px;
+}
+#box-buy{
+  padding-top: 10px;
+}
+#Get-box{
+  width: 167px;
+  height: 40px;
+  color:  #FFFFFF; ;
+}
+#Get-text{
+  display: flex;
+  gap: 4px;
+}
+#box-apply{
+  width: 112px;
+  height: 40px;
+  color: #2997FF;
+}
