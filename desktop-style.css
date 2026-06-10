@@ -7,6 +7,7 @@
   height: 44px;
   background-color: white;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 #logo {
@@ -16,6 +17,7 @@
 }
 #title {
   display: flex;
+  justify-content: center;
   gap: 24px;
 }
 .header-text {
@@ -31,7 +33,7 @@
   align-items: center;
   gap: 24px;
 }
-#menu{
+#menu {
   display: none;
 }
 #subtitle-text {
@@ -43,7 +45,7 @@
   padding-top: 16px;
   padding-bottom: 16px;
 }
-#Bigbox-background{
+#Bigbox-background {
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -54,10 +56,9 @@
   height: 692px;
   background-image: url(/picture/Background\ \(1\).png);
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-position: center;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding-top: 55px;
@@ -67,13 +68,15 @@
   height: 650px;
   background-image: url(/picture/tablet\ black\ pro.jpg);
   background-size: cover;
+  background-position: center;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding-top: 55px;
 }
 
-#background1-tab{
+#background1-tab {
   display: none;
 }
 
@@ -88,6 +91,7 @@
   font-weight: 400;
   font-size: 24px;
   color: #f5f5f7;
+  align-items: center;
 }
 .learn-more {
   width: 123px;
@@ -103,8 +107,6 @@
   display: flex;
   gap: 16px;
   padding-top: 20px;
-  padding-left: 99px;
-  padding-right: 99px;
 }
 #learn-text {
   font-weight: 400;
@@ -130,14 +132,28 @@
   height: 692px;
   background-image: url(/picture/Background\ \(2\).png);
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 55px;
 }
+
+#background2-tab {
+  height: 650px;
+  background-image: url(/picture/tab\ blue\ pro.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 55px;
+}
+
+#background2-tab {
+  display: none;
+}
+
 .learn-more-1 {
   width: 123px;
   height: 44px;
@@ -172,26 +188,23 @@
   height: 692px;
   background-image: url(/picture/Figure\ \(5\).png);
   background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-position: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .Back3 {
-    padding-top: 446px;
-    padding-bottom: 82px;
-    display: flex;
-  
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 446px;
 }
 #heading-text {
   color: #000000;
 }
-#sub-heading-text { 
+#sub-heading-text {
   color: #000000;
 }
 #shop {
@@ -201,84 +214,104 @@
   border-radius: 50px;
   justify-content: center;
   align-items: center;
-  
 }
-.gitf{
-    font-weight: 400;
-    font-size: 16px;
-    color: #FFFFFF;
-    display: flex;
+.gitf {
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  display: flex;
   gap: 16px;
 }
-#shopbuttons{
-    padding-top: 16px;
-    padding-left: 145.5px;
-    padding-right: 145.5px;
+#shopbuttons {
+  margin-top: 16px;
 }
 
-#big{
-    width: 100vw;
-    height: 1764px;
+#big {
+  width: 100vw;
+  height: 1764px;
 }
 .BG {
-    display: grid;
-    grid-template-columns: 50% 2fr ;
-    gap: 10px;
-    background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 50% 2fr;
+  gap: 10px;
+  background-repeat: no-repeat;
 }
-    
-#background4{
-    height: 580px;
-    background-image: url(/picture/5-1.png);
-    background-size: cover;
+
+#text {
+  width: 169px;
+  height: 18px;
 }
-#background5{
-    background-image:url(/picture/Figure.png);
-    background-size: cover;
-}
-#background6{
+
+#background4 {
   height: 580px;
-  background-image:url(/picture/watch.png);
+  background-image: url(/picture/5-1.png);
   background-size: cover;
+  background-position: center;
 }
-#background7{
+#background4-tab { width: 100vw;
+  height: 100%;
+  background-image: url(/picture/tab\ airpad.png);
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+}
+#background4-tab {
+  display: none;
+}
+#background5 {
+  background-image: url(/picture/Figure.png);
+  background-size: cover;
+  background-position: center;
+}
+#background6 {
+  height: 580px;
+  background-image: url(/picture/watch.png);
+  background-size: cover;
+  background-position: center;
+}
+#background7 {
   height: 580px;
   background-image: url(/picture/Figure\ \(2\).png);
   background-size: cover;
+  background-position: center;
+  background-position: center;
 }
-#background8{
+#background8 {
   height: 580px;
   background-image: url(/picture/Figure\ \(3\).png);
   background-size: cover;
+  background-position: center;
 }
-#background9{
+#background9 {
   height: 580px;
   background-image: url(/picture/Figure\ \(7\).png);
- background-size:cover;}
- 
- .back-text{
+  background-size: cover;
+  background-position: center;
+}
+
+.back-text {
   font-weight: 400;
   font-size: 18px;
-  color: #1D1D1F;
+  color: #1d1d1f;
   padding-top: 9px;
   padding-bottom: 20px;
- }
- .back-1{
+}
+.back-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 58px;
- }
- .big-text{
+  margin-top: 50px;
+}
+.big-text {
   font-weight: 600;
   font-size: 36px;
-  color: #F5F5F7;
- }
- #text-2{
-  color: #F5F5F7;
- }
-.back-2{ 
+  color: #f5f5f7;
+}
+#text-2 {
+  color: #f5f5f7;
+}
+.back-2 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -289,17 +322,16 @@
   display: flex;
   gap: 10px;
 }
-#back2 {display: flex;
+#back2{
+  display: flex;
   flex-direction: column;
-  gap: 4px;
-
+  gap:4px;
 }
 .watch{
   display: flex;
   justify-content: center;
-  gap: 4px;
+  gap:4px;
   padding-top: 58px;
-
 }
 #series{
   font-weight: 700;
@@ -308,12 +340,11 @@
   display: flex;
   justify-content: center;
 }
-.Thinstant{
+.Thinstant {
   font-weight: 400;
   font-size: 18px;
-display: flex;
-gap: 16px;
-justify-content: center;
+  display: flex;
+  gap: 16px;  justify-content: center;
 }
 .Buy{
   display: flex;
@@ -339,84 +370,86 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
-#ml{
-  color: #FFFFFF;
+#ml {
+  color: #ffffff;
 }
 #boox {
-color: #2997FF;
+  color: #2997ff;
 }
-#MacBook{ display: flex; 
-  gap:2px;
+#MacBook {
+  display: flex;
+  gap: 2px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 48px;
-  padding-bottom: 411px;
-  padding-left: 286px;
-  padding-right: 286px;
+  margin-top: 48px;
 }
-#box-buy{
+#box-buy {
   padding-top: 10px;
 }
-#Get-box{
+#Get-box {
   width: 167px;
   height: 40px;
-  color:  #FFFFFF; ;
+  color: #ffffff;
 }
-#Get-text{
+#Get-text {
   display: flex;
   gap: 4px;
 }
-#box-apply{
+#box-apply {
   width: 112px;
   height: 40px;
-  color: #2997FF;
+  color: #2997ff;
 }
-#scroll{
+.scroll {
   width: 100vw;
   height: 668px;
   display: flex;
   gap: 16px;
   overflow-x: auto;
 }
-#disclaimer{
+.item {
+  flex: shrink 0;
+}
+#disclaimer {
   width: 1250px;
   height: 668px;
   background-image: url(/picture/disclaimer.jpg);
   background-size: cover;
 }
-#fly-moon{
+#fly-moon {
   width: 1250px;
   height: 668px;
   background-image: url(/picture/fly\ moon.jpg);
   background-size: cover;
 }
-#shrinking{
+#shrinking {
   width: 1250px;
   height: 668px;
   background-image: url(/picture/shrinking.jpg);
   background-size: cover;
 }
-#footer{
+#footer {
   width: 100vw;
   height: 292px;
   display: flex;
   gap: 16px;
-  padding-top: 32px;
-  padding-bottom: 56px;
+  margin-top: 32px ;
+  /* padding-top: 32px;
+  padding-bottom: 56px; */
 }
-#princess{
+#princess {
   width: 417px;
   height: 236px;
   background-image: url(/picture/princess.jpg);
   background-size: cover;
 }
-.weekend-box{
+.weekend-box {
   width: 417px;
   height: 236px;
-  background-color: #1B2632;
+  background-color: #1b2632;
 }
-#weekend{
+#weekend {
   width: 196px;
   height: 196px;
   background-image: url(/picture/weekend.jpg);
@@ -425,22 +458,22 @@ color: #2997FF;
   margin-bottom: 20px;
   margin-left: 15px;
 }
-#NBA{
+#NBA {
   width: 417px;
   height: 236px;
   background-image: url(/picture/NBA.jpg);
   background-size: cover;
 }
-#exercise{
+#exercise {
   width: 417px;
   height: 236px;
   background-image: url(/picture/exercise.jpg);
   background-size: cover;
 }
-#color-picture{
-  background-color: #EBB799;
+#color-picture {
+  background-color: #ebb799;
 }
-#picture{
+#picture {
   width: 196px;
   height: 196px;
   background-image: url(/picture/picture.jpg);
