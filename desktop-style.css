@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 #Main-title {
   width: 100vw;
@@ -64,22 +65,6 @@
   padding-top: 55px;
 }
 
-#background1-tab {
-  height: 650px;
-  background-image: url(/picture/tablet\ black\ pro.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 55px;
-}
-
-#background1-tab {
-  display: none;
-}
-
 .heading-text {
   font-weight: 600;
   font-size: 52px;
@@ -137,21 +122,6 @@
   flex-direction: column;
   align-items: center;
   padding-top: 55px;
-}
-
-#background2-tab {
-  height: 650px;
-  background-image: url(/picture/tab\ blue\ pro.jpg);
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 55px;
-}
-
-#background2-tab {
-  display: none;
 }
 
 .learn-more-1 {
@@ -233,7 +203,7 @@
 .BG {
   display: grid;
   grid-template-columns: 50% 2fr;
-  gap: 10px;
+  gap: 12px;
   background-repeat: no-repeat;
 }
 
@@ -248,16 +218,7 @@
   background-size: cover;
   background-position: center;
 }
-#background4-tab { width: 100vw;
-  height: 100%;
-  background-image: url(/picture/tab\ airpad.png);
-  background-size: cover;
-  background-position: center;
-  flex-wrap: wrap;
-}
-#background4-tab {
-  display: none;
-}
+
 #background5 {
   background-image: url(/picture/Figure.png);
   background-size: cover;
@@ -301,7 +262,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 .big-text {
   font-weight: 600;
@@ -318,22 +279,22 @@
   align-items: center;
   padding-top: 401px;
 }
-#icon{
+#icon {
   display: flex;
   gap: 10px;
 }
-#back2{
+#back2 {
   display: flex;
   flex-direction: column;
-  gap:4px;
+  gap: 4px;
 }
-.watch{
+.watch {
   display: flex;
   justify-content: center;
-  gap:4px;
+  gap: 4px;
   padding-top: 58px;
 }
-#series{
+#series {
   font-weight: 700;
   font-size: 15px;
   color: #000000;
@@ -344,9 +305,10 @@
   font-weight: 400;
   font-size: 18px;
   display: flex;
-  gap: 16px;  justify-content: center;
+  gap: 16px;
+  justify-content: center;
 }
-.Buy{
+.Buy {
   display: flex;
   gap: 16px;
   justify-content: center;
@@ -361,10 +323,10 @@
   justify-content: center;
   align-items: center;
 }
-.boxer{
+.boxer {
   width: 68px;
   height: 44px;
-  border: 2px solid #2997FF;
+  border: 2px solid #2997ff;
   border-radius: 50px;
   display: flex;
   justify-content: center;
@@ -402,30 +364,30 @@
   color: #2997ff;
 }
 .scroll {
-  width: 100vw;
+  box-sizing: border-box;
+  width: 100%;
   height: 668px;
+  overflow-x: auto;
   display: flex;
   gap: 16px;
-  overflow-x: auto;
+  overflow-y: hidden;
 }
-.item {
-  flex: shrink 0;
-}
+
 #disclaimer {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
+  height: 100%;
   background-image: url(/picture/disclaimer.jpg);
   background-size: cover;
 }
 #fly-moon {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
+  height: 100%;
   background-image: url(/picture/fly\ moon.jpg);
   background-size: cover;
 }
 #shrinking {
-  width: 1250px;
-  height: 668px;
+  min-width: 1250px;
+  height: 100%;
   background-image: url(/picture/shrinking.jpg);
   background-size: cover;
 }
@@ -434,7 +396,7 @@
   height: 292px;
   display: flex;
   gap: 16px;
-  margin-top: 32px ;
+  margin-top: 32px;
   /* padding-top: 32px;
   padding-bottom: 56px; */
 }
@@ -482,3 +444,185 @@
   margin-bottom: 20px;
   margin-left: 15px;
 }
+
+/* Tablet-Section-Start */
+
+#background1-tab {
+  height: 650px;
+  background-image: url(/picture/tablet\ black\ pro.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+
+#background1-tab {
+  display: none;
+}
+
+#background2-tab {
+  height: 650px;
+  background-image: url(/picture/tab\ blue\ pro.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+
+#background2-tab {
+  display: none;
+}
+
+#background3-tab {
+  width: 100vw;
+  height: 650px;
+  background-image: url(/picture/tab\ airpad.png);
+  background-size: cover;
+  background-position: center;
+}
+#airpad-tab3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 58px;
+  padding-left: 181px;
+  padding-right: 181px;
+}
+
+#background3-tab {
+  display: none;
+}
+#airpad-bigbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#airpad-tab3-subtext {
+  font-weight: 400;
+  font-size: 22px;
+  color: #000000;
+}
+
+#airpad-tab3-button {
+  display: flex;
+  gap: 16px;
+  padding-top: 16px;
+}
+#tab3-box {
+  width: 123px;
+  height: 44px;
+  background-color: #0071e3;
+  border-radius: 50px;
+}
+
+#tab3-minibox {
+  width: 68px;
+  height: 44px;
+  border: 2px solid #2997ff;
+  border-radius: 50px;
+}
+.tab3-box {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tab3-minibox {
+  color: #2997ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#tab-text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 62px;
+  font-weight: 500px;
+  font-size: 20px;
+}
+.gradient-text {
+  background-image: linear-gradient(#f2416b, #ba62fc, #f55600, #0090f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+#background4-tab {
+  display: none;
+  height: 490px;
+  background-image: url(/picture/tab4\ .png);
+  background-size: cover;
+  background-position: center;
+}
+#tab-airpods4 {
+  height: 161px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 287px;
+  padding-bottom: 42px;
+  padding-left: 63px;
+  padding-right: 62px;
+}
+.airpods4 {
+  color: #f5f5f7;
+  width: 241px;
+  height:69px;
+}
+#airpods4{
+  font-weight: 700;
+  font-size: 30px;
+}
+#sub-airpodstext{
+  font-weight: 400;
+  font-size: 18px;
+}
+#background5-tab {
+  display: none;
+  flex-direction: column;
+  height: 490px;
+  background-image: url(/picture/watch-tab.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#background6-tab {
+  display: none;
+  flex-direction: column;
+  height: 490px;
+  background-image: url(/picture/macbook-tab.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#background7-tab {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 490px;
+  background-image: url(/picture/tab-small-business.png);
+  background-size: cover;
+  background-position: center;
+
+}
+.small-business-text{
+  width: 250px;
+  height: 168px;
+}
+#background8-tab {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 490px;
+  background-image: url(/picture/carrier\ deal.png);
+  background-size: cover;
+  background-position: center;}
+
+
+
+
+
