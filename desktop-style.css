@@ -198,7 +198,7 @@
 
 #big {
   width: 100vw;
-  height: 1764px;
+  /* height: 1764px; */
 }
 .BG {
   display: grid;
@@ -391,24 +391,27 @@
   background-image: url(/picture/shrinking.jpg);
   background-size: cover;
 }
-#footer {
-  width: 100vw;
-  height: 292px;
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  height: 236px;
   display: flex;
   gap: 16px;
   margin-top: 32px;
+  overflow-x: auto;
+  overflow-y: hidden;
   /* padding-top: 32px;
   padding-bottom: 56px; */
 }
 #princess {
-  width: 417px;
-  height: 236px;
+  min-width: 417px;
+  height: 100%;
   background-image: url(/picture/princess.jpg);
   background-size: cover;
 }
 .weekend-box {
-  width: 417px;
-  height: 236px;
+  min-width: 417px;
+  height: 100%;
   background-color: #1b2632;
 }
 #weekend {
@@ -421,14 +424,14 @@
   margin-left: 15px;
 }
 #NBA {
-  width: 417px;
-  height: 236px;
+  min-width: 417px;
+  height: 100%;
   background-image: url(/picture/NBA.jpg);
   background-size: cover;
 }
 #exercise {
-  width: 417px;
-  height: 236px;
+  min-width: 417px;
+  height: 100%;
   background-image: url(/picture/exercise.jpg);
   background-size: cover;
 }
@@ -573,13 +576,13 @@
 .airpods4 {
   color: #f5f5f7;
   width: 241px;
-  height:69px;
+  height: 69px;
 }
-#airpods4{
+#airpods4 {
   font-weight: 700;
   font-size: 30px;
 }
-#sub-airpodstext{
+#sub-airpodstext {
   font-weight: 400;
   font-size: 18px;
 }
@@ -607,9 +610,8 @@
   background-image: url(/picture/tab-small-business.png);
   background-size: cover;
   background-position: center;
-
 }
-.small-business-text{
+.small-business-text {
   width: 250px;
   height: 168px;
 }
@@ -620,9 +622,214 @@
   height: 490px;
   background-image: url(/picture/carrier\ deal.png);
   background-size: cover;
-  background-position: center;}
+  background-position: center;
+}
+.Carrier {
+  color: #1d1d1f;
+}
+#find-tab {
+  width: 126px;
+  height: 36px;
+  background-color: #0071e3;
+  border-radius: 50px;
+}
+.find-tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+#carrier-tab {
+  width: 200px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #1d1d1f;
+}
+#background9-tab {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 490px;
+  background-image: url(/picture/trade-tab.png);
+  background-size: cover;
+  background-position: center;
+}
+#Get-tab {
+  width: 285px;
+  height: 40px;
+}
 
+.tab-scroll {
+  box-sizing: border-box;
+  width: 100%;
+  height: 368px;
+  overflow-x: auto;
+  display: flex;
+  gap: 16px;
+  overflow-y: hidden;
+  padding-top: 16px;
+  padding-bottom: 32px;
+}
+.tab-scroll {
+  display: none;
+}
+#tab-ted {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/ted-tab.jpg);
+  background-size: cover;
+}
+#tab-blitz {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-blitz.jpg);
+  background-size: cover;
+}
+#tab-silo {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/silo-tab.jpg);
+  background-size: cover;
+}
+#tab-bad {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/bad-tab.jpg);
+  background-size: cover;
+}
+#tab-shrinking {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/shrinking-tab.jpg);
+  background-size: cover;
+}
+#tab-season {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/season-tab.jpg);
+  background-size: cover;
+}
+#tab-charlie {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/charlie-tab.jpg);
+  background-size: cover;
+}
+#tab-disclaimer {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/disclaimer-tab.jpg);
+  background-size: cover;
+}
+#tab-horses {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/horses-tab.jpg);
+  background-size: cover;
+}
+#tab-roses {
+  min-width: 689px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/roses-tab.jpg);
+  background-size: cover;
+}
+.tablist-tab {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 8px;
+}
+#item1 {
+  width: 8px;
+  height: 8px;
+  background-image: url(/picture/Tab\ -\ item\ 1\ -\ fly\ me\ to\ the\ moon.png);
+  background-size: cover;
+}
+.item2 {
+  width: 8px;
+  height: 8px;
+  background-image: url(/picture/Tab\ -\ item\ 2\ -\ shrinking\ \(1\).png);
+  background-size: cover;
+}
+#tab-scroll2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 194px;
+  overflow-x: auto;
+  display: flex;
+  overflow-y: hidden;
+}
+.tab-scroll2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 191px;
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.tab-pic1 {
+  min-width: 286px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-pic1.jpg);
+  background-size: cover;
+}
+.tab-pic2 {
+  min-width: 286px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-pic2.jpg);
+  background-size: cover;
+}
+.tab-pic3{
+  min-width: 286px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-pic3.jpg);
+  background-size: cover;
+}
+.tab-pic4{
+  min-width: 286px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-pic4.jpg);
+  background-size: cover;
+}
+.tab-pic5{
+  min-width: 286px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-pic5.jpg);
+  background-size: cover;
+}
+/* Mobile  Section Start */
 
-
-
+#background1-mobile {
+  height: 500px;
+  background-image: url(/picture/mobile1.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 55px;
+}
+#background1-mobile {
+  display: none;
+}
 

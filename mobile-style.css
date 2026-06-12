@@ -1,0 +1,160 @@
+@media (min-width: 390px) and (max-width: 768px) {
+  .header-text {
+    display: none;
+  }
+  #menu {
+    display: flex;
+  }
+
+  #title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #background1 {
+    display: none;
+  }
+  #background1-tab {
+    display: none;
+    flex-wrap: wrap;
+  }
+  #background1-mobile {
+  display: flex;
+}
+
+  #background2 {
+    display: none;
+  }
+  #background2-tab {
+    display: none;
+  }
+  #background3 {
+    display: none;
+  }
+  #background3-tab {
+    display: none;
+  }
+
+  #background4 {
+    display: none;
+  }
+  #background5 {
+    display: none;
+  }
+  #background6 {
+    display: none;
+  }
+  #background7 {
+    display: none;
+  }
+  #background8 {
+    display: none;
+  }
+  #background9 {
+    display: none;
+  }
+
+  #background4-tab{
+    display: none;
+  }
+  #background5-tab{
+    display: none;
+  }
+  #background6-tab{
+    display: none;
+  }
+  #background7-tab{
+    display: none;
+  }
+#background8-tab{
+    display: none;
+  }
+#background9-tab{
+    display: none;
+  }
+  #disclaimer{
+    display: none;
+  }
+  #fly-moon{
+    display: none;
+  }
+  #shrinking{
+   display: none;
+  }
+  #weekend{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+  #princess{
+    display: none;
+  }
+  #NBA{
+    display: none;
+  }
+  #disclaimer{
+    display: none;
+  }
+  #exercise{
+    display: none;
+  }
+  #picture{
+    display: none;
+  }
+  .scroll{
+    display: none;
+  }
+#tab-ted{
+display: none;
+}
+#tab-blitz{
+  display: none;
+}
+.tab-scroll{
+  display: none;
+}
+#tab-silo{
+  display: none;
+}
+#tab-bad{
+  display: none;
+}
+#tab-shrinking{
+  display: none;
+}
+#tab-season{
+  display: none;
+}
+#tab-charlie{
+  display: none;
+}
+#tab-disclaimer{
+  display: none;
+}
+#tab-horses{
+  display: none;
+}
+#tab-roses{
+  display: none;
+}
+.weekend-box{
+  display: none;
+}
+.tab-pic1{
+  display: none;
+}
+.tab-pic2{
+  display: none;
+}
+.tab-pic3{
+  display: none;
+}
+.tab-pic4{
+  display: none;
+}
+.tab-pic5{
+  display: none;
+}
+}

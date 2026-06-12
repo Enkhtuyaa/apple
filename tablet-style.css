@@ -67,8 +67,95 @@
 #background8-tab{
     display: flex;
   }
-
-
-
+#background9-tab{
+    display: flex;
+  }
+  #disclaimer{
+    display: none;
+  }
+  #fly-moon{
+    display: none;
+  }
+  #shrinking{
+   display: none;
+  }
+  #weekend{
+    display: none;
+  }
+  .footer{
+    display: none;
+  }
+  #princess{
+    display: none;
+  }
+  #NBA{
+    display: none;
+  }
+  #disclaimer{
+    display: none;
+  }
+  #exercise{
+    display: none;
+  }
+  #picture{
+    display: none;
+  }
+  .scroll{
+    display: none;
+  }
+#tab-ted{
+display: flex;
+}
+#tab-blitz{
+  display: flex;
+}
+.tab-scroll{
+  display: flex;
+}
+#tab-silo{
+  display: flex;
+}
+#tab-bad{
+  display: flex;
+}
+#tab-shrinking{
+  display: flex;
+}
+#tab-season{
+  display: flex;
+}
+#tab-charlie{
+  display: flex;
+}
+#tab-disclaimer{
+  display: flex;
+}
+#tab-horses{
+  display: flex;
+}
+#tab-roses{
+  display: flex;
+}
+.weekend-box{
+  display: none;
+}
+.tab-pic1{
+  display: flex;
+}
+.tab-pic2{
+  display: flex;
+}
+.tab-pic3{
+  display: flex;
+}
+.tab-pic4{
+  display: flex;
+}
+.tab-pic5{
+  display: flex;
+}
+#background1-mobile {
+  display: none;
 }
 
+}
