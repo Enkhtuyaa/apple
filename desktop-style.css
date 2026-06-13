@@ -824,12 +824,169 @@
   background-size: cover;
   background-position: center;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  padding-top: 55px;
+  padding-top: 320px;
 }
 #background1-mobile {
   display: none;
 }
+#background2-mobile {
+  
+  height: 500px;
+  background-image: url(/picture/mobile-pro\ blue.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 18px ;
+}
+#background2-mobile {
+  display: none;}
+
+
+#background5-mobile{
+   display: none;
+  height: 500px;
+  background-image: url(/picture/mobile-watch.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#background6-mobile{
+  display: none;
+  height: 500px;
+  background-image: url(/picture/macbook-tab.jpg);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+}
+#background7-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-image: url(/picture/tab-small-business.png);
+  background-size: cover;
+  background-position: center;
+}
+#background8-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-image: url(/picture/carrier\ deal.png);
+  background-size: cover;
+  background-position: center;
+}
+#background9-mobile {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  background-image: url(/picture/trade-tab.png);
+  background-size: cover;
+  background-position: center;
+}
+.mobile-scroll {
+  box-sizing: border-box;
+  width: 100%;
+  height: 495px;
+  overflow-x: auto;
+  display: flex;
+  gap: 16px;
+  overflow-y: hidden;
+  padding-top: 12px;
+  padding-bottom: 50px;
+}
+.mobile-scroll {
+  display: none;
+}
+#mobile-1 {
+  min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/tab-scroll-mobile-1.jpg);
+  background-size: cover;
+}
+#mobile-2{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scroll-2.jpg);
+  background-size: cover;
+}
+#mobile-3{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scroll-3.jpg);
+  background-size: cover;
+}
+#mobile-4{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scroll-4.jpg);
+  background-size: cover;
+}
+#mobile-5{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scrll-5.jpg);
+  background-size: cover;
+}
+#mobile-6{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scroll-6.jpg);
+  background-size: cover;
+}
+#mobile-7{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-scroll-7.jpg);
+  background-size: cover;
+}
+#mobile-8{
+min-width: 274px;
+  display: none;
+  height: 100%;
+  background-image: url(/picture/mobile-sccroll-8.jpg);
+  background-size: cover;
+}
+.mobile-scroll2 {
+  box-sizing: border-box;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  display: none;
+}
+#mobile-pic1{
+  display: none;
+  width: 238px;
+  height: 134px;
+  background-color: #6529CF;
+}
+#la-official{
+  width: 114px;
+  height: 114px;
+  background-image: url(/picture/la\ official.jpg);
+  display: none;
+}
+#travel{
+  width: 238px;
+  height: 134px;
+  background-image: url(/picture/travel-friendly.jpg);
+background-size: cover;
+}
+
+
 

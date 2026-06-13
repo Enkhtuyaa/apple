@@ -22,6 +22,9 @@
   #background1-mobile {
   display: flex;
 }
+#background2-mobile {
+  display: flex;
+}
 
   #background2 {
     display: none;
@@ -33,7 +36,73 @@
     display: none;
   }
   #background3-tab {
-    display: none;
+    display: flex;
+  }
+  #background4-tab{
+    padding-top: 299px;
+    padding-left: 100px;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+#background5-mobile {
+  display: flex;
+}
+#background6-mobile {
+  display: flex;
+}
+#background8-mobile {
+  display: flex;}
+
+  #background9-mobile {
+  display: flex;}
+#background7-mobile {
+  display: flex;}
+
+.mobile-scroll{
+  display: flex;
+}
+#mobile-1{
+  display: flex;
+}
+#mobile-2{
+  display: flex;
+}
+#mobile-3{
+  display: flex;
+}
+#mobile-4{
+  display: flex;
+}
+#mobile-5{
+  display: flex;
+}
+#mobile-6{
+  display: flex;
+}
+#mobile-7{
+  display: flex;
+}
+#mobile-8{
+  display: flex;
+}
+.mobile-scroll2{
+    display: flex;
+  }
+  #mobile-pic1{
+    display: flex;
+  }
+  #la-official{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 62px;
+    margin-right: 62px;
+  }
+ #travel{
+    display: flex;
   }
 
   #background4 {
@@ -55,12 +124,8 @@
     display: none;
   }
 
-  #background4-tab{
-    display: none;
-  }
-  #background5-tab{
-    display: none;
-  }
+  
+  
   #background6-tab{
     display: none;
   }
@@ -81,6 +146,9 @@
   }
   #shrinking{
    display: none;
+  }
+  .tablist-tab{
+    display: flex;
   }
   #weekend{
     display: none;
@@ -140,6 +208,9 @@ display: none;
   display: none;
 }
 .weekend-box{
+  display: none;
+}
+.tab-scroll2{
   display: none;
 }
 .tab-pic1{

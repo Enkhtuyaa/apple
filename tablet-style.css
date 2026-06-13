@@ -157,5 +157,57 @@ display: flex;
 #background1-mobile {
   display: none;
 }
+#background2-mobile {
+  display: none;
+}
+#background5-mobile {
+  display: none;}
 
+  #background6-mobile {
+  display: none;}
+
+  #background7-mobile {
+  display: none;}
+
+  #background8-mobile {
+  display: none;}
+
+  #background9-mobile {
+  display: none;}
+  #mobile-1{
+    display: none;
+  }
+   #mobile-2{
+    display: none;
+  }
+  #mobile-3{
+    display: none;
+  }
+   #mobile-4{
+    display: none;
+  }
+  #mobile-5{
+    display: none;
+  }
+  #mobile-6{
+    display: none;
+  }
+  #mobile-7{
+    display: none;
+  }
+  #mobile-8{
+    display: none;
+  }
+  .mobile-scroll2{
+    display: none;
+  }
+  #mobile-pic1{
+    display: none;
+  }
+  #la-official{
+    display: none;
+  }
+  #travel{
+    display: none;
+  }
 }
