@@ -14,6 +14,7 @@
 #logo {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 24px;
 }
 #title {
@@ -31,6 +32,7 @@
 }
 #item {
   display: flex;
+  justify-content: center;
   align-items: center;
   gap: 24px;
 }
@@ -160,6 +162,7 @@
   background-size: cover;
   background-position: center;
   display: flex;
+  gap: 12px;
   flex-direction: column;
   align-items: center;
 }
@@ -217,12 +220,15 @@
   background-image: url(/picture/5-1.png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
 }
+
 
 #background5 {
   background-image: url(/picture/Figure.png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
 }
 #background6 {
   height: 580px;
@@ -371,6 +377,7 @@
   display: flex;
   gap: 16px;
   overflow-y: hidden;
+  margin-top: 12px;
 }
 
 #disclaimer {
@@ -561,6 +568,7 @@
   background-image: url(/picture/tab4\ .png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px
 }
 #tab-airpods4 {
   height: 161px;
@@ -593,6 +601,7 @@
   background-image: url(/picture/watch-tab.jpg);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
 }
 #background6-tab {
   display: none;
@@ -780,6 +789,7 @@
   gap: 16px;
   overflow-x: auto;
   overflow-y: hidden;
+  display: none;
 }
 .tab-pic1 {
   min-width: 286px;
@@ -853,6 +863,8 @@
   background-size: cover;
   background-position: center;
   flex-direction: column;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #background6-mobile{
   display: none;
@@ -861,6 +873,8 @@
   background-size: cover;
   background-position: center;
   flex-direction: column;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #background7-mobile {
   display: none;
@@ -870,6 +884,8 @@
   background-image: url(/picture/tab-small-business.png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #background8-mobile {
   display: none;
@@ -879,6 +895,8 @@
   background-image: url(/picture/carrier\ deal.png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 #background9-mobile {
   display: none;
@@ -888,6 +906,8 @@
   background-image: url(/picture/trade-tab.png);
   background-size: cover;
   background-position: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .mobile-scroll {
   box-sizing: border-box;
@@ -981,6 +1001,7 @@ min-width: 274px;
   background-image: url(/picture/la\ official.jpg);
   display: none;
 }
+
 #travel{
   width: 238px;
   height: 134px;
