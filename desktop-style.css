@@ -223,7 +223,6 @@
   margin-top: 12px;
 }
 
-
 #background5 {
   background-image: url(/picture/Figure.png);
   background-size: cover;
@@ -420,6 +419,8 @@
   min-width: 417px;
   height: 100%;
   background-color: #1b2632;
+  display: flex;
+  gap: 15px;
 }
 #weekend {
   width: 196px;
@@ -429,6 +430,12 @@
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 15px;
+}
+.text-weekend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 #NBA {
   min-width: 417px;
@@ -568,7 +575,7 @@
   background-image: url(/picture/tab4\ .png);
   background-size: cover;
   background-position: center;
-  margin-top: 12px
+  margin-top: 12px;
 }
 #tab-airpods4 {
   height: 161px;
@@ -805,21 +812,21 @@
   background-image: url(/picture/tab-pic2.jpg);
   background-size: cover;
 }
-.tab-pic3{
+.tab-pic3 {
   min-width: 286px;
   display: none;
   height: 100%;
   background-image: url(/picture/tab-pic3.jpg);
   background-size: cover;
 }
-.tab-pic4{
+.tab-pic4 {
   min-width: 286px;
   display: none;
   height: 100%;
   background-image: url(/picture/tab-pic4.jpg);
   background-size: cover;
 }
-.tab-pic5{
+.tab-pic5 {
   min-width: 286px;
   display: none;
   height: 100%;
@@ -842,7 +849,6 @@
   display: none;
 }
 #background2-mobile {
-  
   height: 500px;
   background-image: url(/picture/mobile-pro\ blue.jpg);
   background-size: cover;
@@ -850,14 +856,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 18px ;
+  padding-top: 18px;
 }
 #background2-mobile {
-  display: none;}
+  display: none;
+}
 
-
-#background5-mobile{
-   display: none;
+#background5-mobile {
+  display: none;
   height: 500px;
   background-image: url(/picture/mobile-watch.jpg);
   background-size: cover;
@@ -866,7 +872,7 @@
   margin-top: 12px;
   margin-bottom: 12px;
 }
-#background6-mobile{
+#background6-mobile {
   display: none;
   height: 500px;
   background-image: url(/picture/macbook-tab.jpg);
@@ -930,50 +936,50 @@
   background-image: url(/picture/tab-scroll-mobile-1.jpg);
   background-size: cover;
 }
-#mobile-2{
-min-width: 274px;
+#mobile-2 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scroll-2.jpg);
   background-size: cover;
 }
-#mobile-3{
-min-width: 274px;
+#mobile-3 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scroll-3.jpg);
   background-size: cover;
 }
-#mobile-4{
-min-width: 274px;
+#mobile-4 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scroll-4.jpg);
   background-size: cover;
 }
-#mobile-5{
-min-width: 274px;
+#mobile-5 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scrll-5.jpg);
   background-size: cover;
 }
-#mobile-6{
-min-width: 274px;
+#mobile-6 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scroll-6.jpg);
   background-size: cover;
 }
-#mobile-7{
-min-width: 274px;
+#mobile-7 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-scroll-7.jpg);
   background-size: cover;
 }
-#mobile-8{
-min-width: 274px;
+#mobile-8 {
+  min-width: 274px;
   display: none;
   height: 100%;
   background-image: url(/picture/mobile-sccroll-8.jpg);
@@ -989,25 +995,118 @@ min-width: 274px;
   overflow-y: hidden;
   display: none;
 }
-#mobile-pic1{
+#mobile-pic1 {
   display: none;
   width: 238px;
   height: 134px;
-  background-color: #6529CF;
+  background-color: #6529cf;
 }
-#la-official{
+#la-official {
   width: 114px;
   height: 114px;
   background-image: url(/picture/la\ official.jpg);
+  background-size: cover;
   display: none;
 }
 
-#travel{
+#travel {
   width: 238px;
   height: 134px;
   background-image: url(/picture/travel-friendly.jpg);
-background-size: cover;
+  background-size: cover;
 }
 
+#big-box-stream {
+  display: flex;
+  padding-bottom: 58px;
+  padding-left: 70px;
+  padding-top: 566px;
+}
+#box-stream {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 20px;
+}
+#Stream {
+  width: 133px;
+  height: 44px;
+  border-radius: 999px;
+  background-color: white;
+  font-weight: 400;
+  font-size: 17px;
+}
+.text-stream {
+  font-weight: 400;
+  font-size: 17px;
+  color: white;
+}
+.text-princess {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+.fitness-pic {
+  width: 14px;
+  height: 14px;
+  background-image: url(/picture/Apple-Logo-black.webp);
+  background-size: cover;
+}
 
+.fit-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+.fitness-box {
+  display: flex;
+}
+.princess-box {
+  display: flex;
+}
 
+#princess {
+  display: flex;
+  padding-top: 198px;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+
+#music {
+  width: 16px;
+  height: 16px;
+  background-image: url(/picture/Apple-Logo-black.webp);
+  background-size: cover;
+}
+#music-text {
+  font-weight: 400;
+  font-size: 14;
+}
+.box-music {
+  display: flex;
+  padding-top: 199px;
+  padding-right: 15px;
+}
+.NBA-text {
+  padding-top: 198px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.la-official-text {
+  display: flex;
+  padding-top: 113px;
+}
+
+.latest-pic {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.text-last{
+  font-weight: 700;
+  font-size: 12;
+}
